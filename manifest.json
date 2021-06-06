@@ -1,0 +1,21 @@
+{
+    "version":"1.0",
+    "manifest_version":2,
+    "name": "Enviormental Consciousness Tracker", 
+    "description": "Enviormental Consciousness Tracker",
+    "browser_action": {
+        "default_icon": "earthicon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+     ],
+     "icons": {
+        "16": "earthicon.png",
+        "32": "earthicon.png",
+        "48": "earthicon.png",
+        "128": "earthicon.png"
+    },
+    "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com https://www.gstatic.com; object-src 'self'"
+
+}
